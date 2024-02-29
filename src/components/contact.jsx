@@ -140,8 +140,8 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.Linkedin : "/"}>
+                        <i className="fa fa-linkedin-square "></i>
                     </a>
                   </li>
                 </ul>
@@ -153,10 +153,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+                      Copyright © 2012 - 2024 Manaia Data analytics®. All rights reserved.
+
           </p>
         </div>
       </div>
